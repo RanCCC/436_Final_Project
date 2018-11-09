@@ -13,4 +13,29 @@
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Here are your buses</string>
+    <string name="title_activity_your_buses">YourBusesActivity</string>
+    <string name="tab_text_1">Past</string>
+    <string name="tab_text_2">Upcoming</string>
+    <string name="your_buses_title">Your Buses</string>
+    <string name="reminder_settings_title">Reminder Settings</string>
+    <string name="remind_me_title">Remind Me</string>
+    <string name="day_of_title">Day Of Reminder</string>
+    <string name="two_days_before_option">2 days before</string>
+    <string name="one_day_before_option">1 days before</string>
+    <string name="day_of_option">Day of my reservation</string>
+    <string name="sixty_min_before_options">60 min before</string>
+    <string name="thirty_min_before_options">30 min before</string>
+    <string name="ten_min_before_options">10 min before</string>
+    <string name="five_min_before_options">5 min before</string>
+    <string name="confirm_text">Confirm</string>
+
+
+
+
+
+
+
 </resources>
