@@ -13,4 +13,6 @@
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
+    <string name="radio_default">Default (10 minutes before arrival and at arrival)</string>
+    <string name="radio_custom">Custom</string>
 </resources>
