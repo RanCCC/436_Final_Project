@@ -32,10 +32,8 @@
     <string name="five_min_before_options">5 min before</string>
     <string name="confirm_text">Confirm</string>
 
-
-
-
-
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 
 </resources>

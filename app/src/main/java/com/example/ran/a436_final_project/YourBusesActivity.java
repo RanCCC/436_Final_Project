@@ -11,6 +11,7 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -18,6 +19,9 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import android.widget.TextView;
+
+import com.example.ran.a436_final_project.dummy.PastBusesFragment;
+import com.example.ran.a436_final_project.dummy.UpcomingBusesFragment;
 
 public class YourBusesActivity extends AppCompatActivity {
 
@@ -43,7 +47,7 @@ public class YourBusesActivity extends AppCompatActivity {
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        // Create the adapter that will return a fragment for each of the three
+        // Create the adapter that will return a fragment for each of the
         // primary sections of the activity.
         mSectionsPagerAdapter = new SectionsPagerAdapter(getSupportFragmentManager());
 
@@ -107,8 +111,13 @@ public class YourBusesActivity extends AppCompatActivity {
          * Returns a new instance of this fragment for the given section
          * number.
          */
-        public static PlaceholderFragment newInstance(int sectionNumber) {
-            PlaceholderFragment fragment = new PlaceholderFragment();
+        public static Fragment newInstance(int sectionNumber) {
+            Fragment fragment;
+            if (sectionNumber == 1) {
+                fragment = new PastBusesFragment();
+            } else {
+                fragment = new UpcomingBusesFragment();
+            }
             Bundle args = new Bundle();
             args.putInt(ARG_SECTION_NUMBER, sectionNumber);
             fragment.setArguments(args);
