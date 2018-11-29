@@ -15,4 +15,5 @@
     </string>
     <string name="title_activity_confirmation_page">ConfirmationPage</string>
     <string name="title_activity_confirmation">ConfirmationActivity</string>
+    <string name="title_activity_second">SecondActivity</string>
 </resources>
